@@ -1,0 +1,10 @@
+.theme-part-nav {
+  height: 10vh;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.dark .theme-part-nav {
+  background-color: #13294f;
+}

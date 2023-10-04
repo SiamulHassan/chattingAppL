@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+
+:root {
+  --title-color: #11175d;
+  --black: #000;
+  --white: #fff;
+  --primary-color: #5f35f5;
+  --secondary-color: #03014c;
+  --red-orange: #ea6c00;
+  --error: #f55050;
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Nunito", sans-serif;
+  --rare-font: "Open Sans", sans-serif;
+  --body-color: #fff;
+  /* df */
+  --fieldset-border: #11175d;
+  --sidebar-color: #5f35f5;
+  --sidebarIcon-color: #5f35f5;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--body-color);
+}
+/* ================== STARTING DARK MOOD ================= */
+.dark {
+  background-color: var(--body-color);
+  /* it is for focus and hover state */
+  --fieldset-border: #d8d8d8;
+  --title-color: var(--white);
+  --secondary-color: var(--white);
+  --black: var(--white);
+  --sidebar-color: #13294f;
+  --sidebarIcon-color: #11175d;
+}
+/* for border */
+.dark .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-color: var(--white);
+}
+/* for lable */
+.dark .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  color: var(--white);
+}
+.dark .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  color: var(--white);
+}
+.dark a {
+  color: var(--white);
+  text-decoration: underline;
+}
+body .dark {
+  --body-color: #132043;
+}
+/* ================== ENDING DARK MOOD ================= */
+/* box design */
+.box {
+  align-items: center !important;
+  height: 100vh;
+}
+.inputs-design {
+  width: 70% !important;
+  margin-bottom: 15px !important;
+}
+
+.form-error {
+  margin-bottom: 15px;
+  color: var(--error);
+  font-family: var(--secondary-font);
+}

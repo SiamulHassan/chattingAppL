@@ -1,0 +1,52 @@
+.reg-header {
+  margin-bottom: 34px;
+}
+.reg-header h2 {
+  font-family: var(--secondary-font);
+  font-size: 34px;
+  color: var(--title-color);
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.reg-header p {
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--title-color);
+}
+.password {
+  position: relative;
+}
+.eye-closed {
+  position: absolute;
+  top: 45%;
+  right: 34%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.form-btn {
+  width: 70%;
+  padding: 15px 0 !important;
+  border-radius: 30px !important;
+  background: var(--primary-color) !important;
+  font-family: var(--secondary-font) !important;
+}
+.dark .form-btn {
+  background-color: #fff !important;
+  color: #1b1b1b;
+}
+
+.links {
+  width: 70%;
+  text-align: center;
+}
+.links p {
+  font-family: var(--rare-font);
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--secondary-color);
+  margin-top: 16px;
+}
+.signup-img img {
+  width: 100%;
+}

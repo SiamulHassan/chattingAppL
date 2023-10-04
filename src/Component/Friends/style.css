@@ -1,0 +1,79 @@
+.friend-block_box {
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 3px 10px rgba(10, 10, 10, 0.377);
+  padding: 12px;
+  border-radius: 8px;
+  font-family: var(--primary-font);
+  height: 44vh;
+  overflow-y: auto;
+  margin-bottom: 25px;
+}
+/* scroll design */
+.friend-block_box::-webkit-scrollbar {
+  width: 5px;
+}
+/* .friend-block_box::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 10px rgb(211 48 48);
+} */
+.friend-block_box::-webkit-scrollbar-thumb {
+  border-top-right-radius: 5px;
+  background-color: #755feb;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.friend-block_heading {
+  color: var(--secondary-color);
+}
+.friend-block_container {
+  display: flex;
+  justify-self: space-between;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.friend-block_container:not(:last-child) {
+  border-bottom: 1px solid rgba(72, 0, 155, 0.219);
+}
+.friend-block-profile_part {
+  width: 60%;
+  display: flex;
+  margin-bottom: 30px;
+}
+.friend-block-profile {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.friend-block-profile_name {
+  margin-left: 14px;
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+.friend-block-profile img {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+}
+.btn_part {
+  width: 40%;
+  text-align: right;
+  margin-right: 20px;
+}
+.group-btn {
+  background: #5f35f5ea !important;
+}
+.group-btn:hover {
+  background: #5f35f5cb !important;
+}
+.btn--unfriend {
+  margin-top: 6px !important;
+  background: #9f07c5de !important;
+  padding: 6px 16px !important;
+}
+
+.btn--unfriend:hover {
+  background: #9202b6bb !important;
+  box-shadow: 0 3px 10px #b122d48f !important;
+}

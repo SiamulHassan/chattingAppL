@@ -1,0 +1,60 @@
+.login-header {
+  margin-bottom: 34px;
+  text-align: center;
+}
+.avatar {
+  width: 80%;
+  margin-bottom: 10px;
+}
+.avatar img {
+  width: 20%;
+}
+.google {
+  margin-top: 15px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid rgba(3, 1, 76, 0.3);
+  cursor: pointer;
+  padding: 10px 0;
+}
+.dark .google {
+  background: rgba(253, 253, 253, 0.251);
+}
+.gogle_iocn {
+  font-size: 35px;
+}
+.fb_icon {
+  color: #1d1b66;
+}
+.login-header h2 {
+  width: 80%;
+  font-family: var(--secondary-font);
+  font-size: 34px;
+  color: var(--title-color);
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.gogle_text {
+  font-family: var(--rare-font);
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--black);
+}
+.auto_log {
+  display: flex;
+}
+.facebook {
+  margin-left: 10px;
+}
+.forgotPassword {
+  font-family: var(--secondary-font);
+  display: inline-block;
+  margin-top: 15px;
+  transition: 0.4s;
+}
+.forgotPassword:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,31 @@
+.upload-box {
+  width: 500px;
+  height: 370px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.upload-icon {
+  width: 80px;
+  height: 80px;
+  background-color: #e6e5e5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.upload-icon svg {
+  width: 24px;
+  height: 24px;
+}
+.upload p {
+  font-family: var(--poppins);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 8px;
+  color: var(--title-color);
+}

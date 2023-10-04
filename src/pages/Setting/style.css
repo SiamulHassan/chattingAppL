@@ -1,0 +1,44 @@
+.setting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+.setting-from {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.setting-content {
+  width: 800px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+  filter: drop-shadow(0 0 19px rgba(0, 0, 0, 0.04));
+  -webkit-filter: drop-shadow(0 0 19px rgba(0, 0, 0, 0.06));
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.dark .setting-content {
+  background-color: #5992f5;
+}
+.profile-setting {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: 16px auto;
+}
+.profile-setting img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

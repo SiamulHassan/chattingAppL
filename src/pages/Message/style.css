@@ -1,0 +1,67 @@
+.allgroup-block_box {
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 3px 10px rgba(10, 10, 10, 0.377);
+  padding: 12px;
+  border-radius: 8px;
+  font-family: var(--primary-font);
+  height: 44vh;
+  overflow-y: auto;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+/* scroll design */
+.allgroup-block_box::-webkit-scrollbar {
+  width: 5px;
+}
+/* .friend-block_box::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 10px rgb(211 48 48);
+} */
+.allgroup-block_box::-webkit-scrollbar-thumb {
+  border-top-right-radius: 5px;
+  background-color: #755feb;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.allgroup-block_heading {
+  color: var(--secondary-color);
+}
+.allgroup-block_container {
+  display: flex;
+  justify-self: space-between;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.allgroup-block_container:not(:last-child) {
+  border-bottom: 1px solid rgba(72, 0, 155, 0.219);
+}
+.allgroup-profile_part {
+  width: 60%;
+  display: flex;
+  margin-bottom: 10px;
+}
+.allgroup-profile {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.allgroup-profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.lottie-animation {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  width: 34%;
+}
+.chat-heading {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 16px;
+  color: var(--black);
+}

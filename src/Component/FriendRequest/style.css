@@ -1,0 +1,76 @@
+.friend_box {
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 3px 10px rgba(10, 10, 10, 0.377);
+  padding: 12px;
+  border-radius: 8px;
+  font-family: var(--primary-font);
+  height: 45vh;
+  overflow-y: auto;
+}
+/* scroll design */
+.friend_box::-webkit-scrollbar {
+  width: 5px;
+}
+/* .friend_box::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 10px rgb(211 48 48);
+} */
+.friend_box::-webkit-scrollbar-thumb {
+  border-top-right-radius: 5px;
+  background-color: #755feb;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.firend_heading {
+  color: var(--secondary-color);
+}
+.friend_container {
+  display: flex;
+  justify-self: space-between;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.friend_container:not(:last-child) {
+  border-bottom: 1px solid rgba(72, 0, 155, 0.219);
+}
+.friend_profile-part {
+  width: 60%;
+  display: flex;
+  margin-bottom: 30px;
+}
+.friend-profile {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.friend-profile img {
+  width: 65px;
+  object-fit: cover;
+}
+.friend-profile_name {
+  margin-left: 14px;
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+
+.btn_part {
+  width: 40%;
+  text-align: right;
+  margin-right: 20px;
+}
+.group-btn {
+  background: #5f35f5ea !important;
+}
+.group-btn:hover {
+  background: #5f35f5cb !important;
+}
+.btn--reject {
+  margin-top: 6px !important;
+  background: #9f07c5de !important;
+  padding: 6px 30px !important;
+}
+.btn--reject:hover {
+  background: #9202b6bb !important;
+}

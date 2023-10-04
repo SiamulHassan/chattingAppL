@@ -1,0 +1,18 @@
+body {
+  position: relative;
+}
+.cam_position {
+  position: absolute;
+  top: -800%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.closeIcon svg {
+  fill: red;
+  z-index: 99999;
+  font-size: 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
