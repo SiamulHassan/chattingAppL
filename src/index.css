@@ -45,14 +45,14 @@ body {
 }
 /* for border */
 .dark .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
-  border-color: var(--white);
+  border-color: var(--white) !important;
 }
 /* for lable */
 .dark .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
-  color: var(--white);
+  color: var(--white) !important;
 }
 .dark .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
-  color: var(--white);
+  color: var(--white) !important;
 }
 .dark a {
   color: var(--white);
