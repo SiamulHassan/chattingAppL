@@ -191,6 +191,12 @@ const Login = () => {
                     onChange={formik.handleChange}
                     onBlur={formik.handleBlur}
                     sx={{
+                      "& .MuiInputLabel-root": {
+                        color: "var(--fieldset-border)",
+                      },
+                      "& .MuiInputBase-root": {
+                        color: "var(--fieldset-border)",
+                      },
                       "& .MuiOutlinedInput-root.Mui-focused": {
                         "& > fieldset": {
                           borderColor: "var(--fieldset-border)",
@@ -198,6 +204,9 @@ const Login = () => {
                       },
                       "& .MuiInputLabel-root.Mui-focused": {
                         color: "var(--fieldset-border)",
+                      },
+                      " & fieldset": {
+                        borderColor: "var(--fieldset-border)",
                       },
                       "&:hover fieldset": {
                         borderColor: "var(--fieldset-border) !important",
@@ -218,6 +227,12 @@ const Login = () => {
                       onChange={formik.handleChange}
                       onBlur={formik.handleBlur}
                       sx={{
+                        "& .MuiInputLabel-root": {
+                          color: "var(--fieldset-border)",
+                        },
+                        "& .MuiInputBase-root": {
+                          color: "var(--fieldset-border)",
+                        },
                         "& .MuiOutlinedInput-root.Mui-focused": {
                           "& > fieldset": {
                             borderColor: "var(--fieldset-border)",
@@ -225,6 +240,9 @@ const Login = () => {
                         },
                         "& .MuiInputLabel-root.Mui-focused": {
                           color: "var(--fieldset-border)",
+                        },
+                        " & fieldset": {
+                          borderColor: "var(--fieldset-border)",
                         },
                         "&:hover fieldset": {
                           borderColor: "var(--fieldset-border) !important",
